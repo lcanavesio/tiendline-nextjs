@@ -1,6 +1,6 @@
-import es from './hero/es.json'
-import en from './hero/en.json'
-import jp from './hero/jp.json'
+import es from './home/es.json'
+import en from './home/en.json'
+import jp from './home/jp.json'
 
 const getLanguage = (lang: string) => {
     const messages = {

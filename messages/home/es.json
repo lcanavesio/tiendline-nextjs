@@ -7,8 +7,19 @@
     "title": "home description",
     "description": "Somos especialistas en el desarrollo de aplicaciones y sitios web personalizados que se adaptan a las necesidades únicas de su negocio. Impulsamos su éxito en línea con soluciones digitales de alta calidad y un enfoque centrado en el usuario."
   },
-  "contact": {
+  "contactButton": {
     "title": "Contacto",
     "description": "Contacto"
+  },
+  "contact": {
+    "title": "¿Necesita que nos contactemos con usted?",
+    "description": "Nuestro equipo de soporte se comunicará con usted lo antes posible por correo electrónico.",
+    "name": "Su nombre y apellido",
+    "paceHolderName": "Ingrese su nombre y apellido",
+    "email": "Correo electrónico",
+    "paceHolderEmail": "Ingrese su email",
+    "message": "Mensaje",
+    "paceHolderMessage": "Ingrese su mensaje",
+    "send": "Enviar"
   }
 }

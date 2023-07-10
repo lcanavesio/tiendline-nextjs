@@ -1,0 +1,25 @@
+{
+  "firstContent": {
+    "title": "ホームのタイトル",
+    "description": "カスタムアプリケーションとウェブサイトの開発"
+  },
+  "secondContent": {
+    "title": "ホームの説明",
+    "description": "お客様のビジネスの独自のニーズに合わせたカスタマイズされたアプリケーションとウェブサイトの開発には、私たちが専門です。ユーザー中心のアプローチと高品質なデジタルソリューションでオンラインでの成功を支援します。"
+  },
+  "contactButton": {
+    "title": "お問い合わせ",
+    "description": "お問い合わせ"
+  },
+  "contact": {
+    "title": "お問い合わせが必要ですか？",
+    "description": "弊社のサポートチームはできるだけ早くメールでご連絡いたします。",
+    "name": "お名前",
+    "paceHolderName": "お名前を入力してください",
+    "email": "メールアドレス",
+    "paceHolderEmail": "メールアドレスを入力してください",
+    "message": "メッセージ",
+    "paceHolderMessage": "メッセージを入力してください",
+    "send": "送信"
+  }
+}
