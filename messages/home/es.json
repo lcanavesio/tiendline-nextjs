@@ -21,5 +21,9 @@
     "message": "Mensaje",
     "paceHolderMessage": "Ingrese su mensaje",
     "send": "Enviar"
+  },
+  "footer": {
+    "title": "Tiendline",
+    "description": "Desarrollo de páginas  y sistemas a medida."
   }
 }

@@ -21,5 +21,9 @@
     "message": "メッセージ",
     "paceHolderMessage": "メッセージを入力してください",
     "send": "送信"
+  },
+  "footer": {
+    "title": "Tiendline",
+    "description": "カスタムページやシステムの開発"
   }
 }
