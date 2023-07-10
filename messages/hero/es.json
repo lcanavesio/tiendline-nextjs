@@ -1,0 +1,14 @@
+{
+  "firstContent": {
+    "title": "home title",
+    "description": "Desarrollo de aplicaciones y sitios web personalizados"
+  },
+  "secondContent": {
+    "title": "home description",
+    "description": "Somos especialistas en el desarrollo de aplicaciones y sitios web personalizados que se adaptan a las necesidades únicas de su negocio. Impulsamos su éxito en línea con soluciones digitales de alta calidad y un enfoque centrado en el usuario."
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Contacto"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "firstContent": {
+    "title": "home title",
+    "description": "Development of custom applications and websites"
+  },
+  "secondContent": {
+    "title": "home description",
+    "description": "We are specialists in developing custom applications and websites that are tailored to the unique needs of your business. We fuel your online success with high-quality digital solutions and a user-centric approach."
+  },
+  "contact":
+  {
+    "title": "Contact",
+    "description": "Contact us"
+  }
+  
+}
