@@ -5,16 +5,17 @@ import { useEffect } from "react";
 import { en, es, jp } from "../../../messages/menu";
 
 
-const menuData = (): React.ReactNode => {
+const MenuData = (): React.ReactNode => {
   const { lang } = useLanguage();
   const [menu, setMenu] = useState([]);
-  const menuLang = {
-    es,
-    en,
-    jp,
-  };
+
 
   useEffect(() => {
+    const menuLang = {
+      es,
+      en,
+      jp,
+    };
     setMenu(menuLang[lang]);
   }, [lang]);
     
@@ -74,4 +75,4 @@ const menuData = (): React.ReactNode => {
     </li>
   ));
 };
-export default menuData;
+export default MenuData;

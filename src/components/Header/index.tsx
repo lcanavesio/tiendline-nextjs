@@ -3,9 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
-import menuData from "./menuData";
 import LocaleSwitcher from "../utils/LocaleSwitcher";
-import { useLanguage } from "../context/useLanguage";
+import MenuData from "./menuData";
 
 const Header = () => {
   // Navbar toggle
@@ -13,7 +12,7 @@ const Header = () => {
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
   };
-  const menu = menuData();
+
   // Sticky Navbar
   const [sticky, setSticky] = useState(false);
   const handleStickyNavbar = () => {
@@ -54,7 +53,7 @@ const Header = () => {
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/tiendline.svg"
+                  src="/images/logo/tiendlineLight.svg"
                   alt="logo"
                   width={140}
                   height={30}
@@ -95,7 +94,7 @@ const Header = () => {
                   }`}
                 >
                   <ul className="block lg:flex lg:space-x-12">
-                    {menu}
+                  <MenuData />
                   </ul>
                 </nav>
               </div>

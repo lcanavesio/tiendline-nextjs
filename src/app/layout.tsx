@@ -11,9 +11,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const [langStore, setLangstore] = useLocalStorage<string>(`lang`, "");
+  const [langStore, setLangstore] = useLocalStorage<string>(`lang`, "es");
+
   return (
-    <html suppressHydrationWarning lang={langStore ? langStore : "es"}>
+    <html suppressHydrationWarning lang={langStore}>
       {/*
         <head /> will contain the components returned by the nearest parent
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
